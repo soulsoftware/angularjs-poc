@@ -21,13 +21,14 @@ This is a POC for [AngularJS](https://angularjs.org/) technology
 
 ### OSX User(s)
 
-#### Ensure that you have installed  [Homebrew](https://chocolatey.org/)
+#### Ensure that you have installed  [Homebrew](https://github.com/Homebrew/homebrew)
+
+Type the following command
 
 ```
 > brew doctor
 
 ```
-
-http://coolestguidesontheplanet.com/installing-homebrew-os-x-yosemite-10-10-package-manager-unix-apps/
+If **brew** app doesn't exist follow the guide [here](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Installation.md#installation)
 
 ### UNIX User(s)
