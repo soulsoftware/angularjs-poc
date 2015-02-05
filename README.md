@@ -2,8 +2,9 @@
 
 This is a POC for [AngularJS](https://angularjs.org/) technology
 
-## Getting Started
+## Getting Started - The Required tools
 
+---
 ### Windows User(s)
 
 #### Install [Chocolately](https://chocolatey.org/)
@@ -18,6 +19,25 @@ This is a POC for [AngularJS](https://angularjs.org/) technology
 > choco install nodejs
 
 ```
+> Node installation includes also **[npm](https://www.npmjs.com/)** that is the **NODE PACKAGE MANAGER** that allows to access to all available online node packages.
+
+##### Intall Bower
+> Now we can proceed to install **[Bower](http://bower.io/)** that is a **PACKAGE MANGER FOR THE WEB** that allows access to the most inportant web technologies
+
+```
+> npm install -g bower
+
+```
+
+##### Install Yeoman
+> Now we can proceed to install **[Yeoman](http://yeoman.io/)** that is a **WEB'S SCAFFOLDING TOOL** very helpful to create/update/mantain modern webapps.
+
+```
+> npm install -g yo
+
+```
+
+---
 
 ### OSX User(s)
 
@@ -48,11 +68,12 @@ If **brew** app doesn't exist follow the guide [here](https://github.com/Homebre
 ```
 
 ##### Install Yeoman
+> Now we can proceed to install **[Yeoman](http://yeoman.io/)** that is a **WEB'S SCAFFOLDING TOOL** very helpful to create/update/mantain modern webapps.
 
 ```
 > npm install -g yo
 
 ```
 
-
-### UNIX User(s)
+---
+### LINUX User(s)
