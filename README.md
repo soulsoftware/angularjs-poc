@@ -31,4 +31,28 @@ Type the following command
 ```
 If **brew** app doesn't exist follow the guide [here](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Installation.md#installation)
 
+#### Install Node
+
+```
+> brew install node
+
+```
+> Node installation includes also **[npm](https://www.npmjs.com/)** that is the **NODE PACKAGE MANAGER** that allows to access to all available online node packages.
+
+##### Intall Bower
+> Now we can proceed to install **[Bower](http://bower.io/)** that is a **PACKAGE MANGER FOR THE WEB** that allows access to the most inportant web technologies
+
+```
+> npm install -g bower
+
+```
+
+##### Install Yeoman
+
+```
+> npm install -g yo
+
+```
+
+
 ### UNIX User(s)
