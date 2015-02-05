@@ -12,6 +12,12 @@ This is a POC for [AngularJS](https://angularjs.org/) technology
 > Follow the 'getting started' from [site](https://chocolatey.org/). **Chocolately** allows to install software in very easy way.
 > After installation you are able to use **choco** command from your terminal (black window)
 
+#### Install [GIT](http://git-scm.com/)
+
+```
+> choco install git
+
+```
 
 #### Install Node
 
@@ -50,6 +56,13 @@ Type the following command
 
 ```
 If **brew** app doesn't exist follow the guide [here](https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/Installation.md#installation)
+
+#### Install [GIT](http://git-scm.com/)
+
+```
+> brew install git
+
+```
 
 #### Install Node
 
