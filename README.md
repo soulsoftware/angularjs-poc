@@ -77,3 +77,6 @@ If **brew** app doesn't exist follow the guide [here](https://github.com/Homebre
 
 ---
 ### LINUX User(s)
+
+
+> WAITING FOR VOLUNTEERS
