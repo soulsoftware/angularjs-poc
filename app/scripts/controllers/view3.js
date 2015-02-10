@@ -17,5 +17,22 @@ angular.module('myApp.view3',['ngRoute'])
 }])
 
   .controller('View3Ctrl', function ($scope) {
-    $scope.name = "view3";
+    $scope.name = "VIEW3 ROCK!";
+
+    $scope.myModel = {
+      name: "Bartolo",
+      nick:"O CTO" ,
+      message:function() {
+        alert("HELLO GUYS!");
+      },
+      updateName:function(newName) {
+        this.name = newName;
+      }
+    };
+
+    $scope.alph = [
+
+        "A", "B", "C", "D", "E", "F", "GG"
+              ];
+
   });
