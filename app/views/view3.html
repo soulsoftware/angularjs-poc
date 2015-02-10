@@ -1,3 +1,19 @@
 
-<p>This is the {{name}} view.</p>
+<p>This is the "{{name}}" view.</p>
+
+<h1>{{myModel.name}}</h1>
+
+<hr>
+
+<h2>{{myModel.nick}}</h2>
+
+<hr>
+
+<ul>
+<li ng-repeat="letter in alph"><b>{{letter}}</b></li>
+</ul>
+
+
+<button ng-click="myModel.message()">TEST</button>
+<button ng-click="myModel.updateName('DUILIO')">UPDATE NAME</button>
 
