@@ -10,5 +10,5 @@
 angular.module('angularjsPocApp')
   .controller('MainCtrl', function ($scope) {
 
-    $scope.author = { "name":"Bartolomeo", "surname":"Sorrentino" };
+    $scope.author = { "name":"Bartolomeo", "surname":"Sorrentino", "title":"Chief Technology Officer" };
 });
