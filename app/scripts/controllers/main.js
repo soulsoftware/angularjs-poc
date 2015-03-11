@@ -13,7 +13,7 @@ angular.module('angularjsPocApp')
     $scope.author = { "name":"Bartolomeo", "surname":"Sorrentino" };
 
 
-$http.get('http://192.168.1.111:3000').
+$http.get('http://192.168.0.10:3000').
   success(function(data, status, headers, config) {
     // this callback will be called asynchronously
     // when the response is available
