@@ -13,11 +13,14 @@ angular.module('angularjsPocApp')
     $scope.author = { "name":"Bartolomeo", "surname":"Sorrentino" };
 
 
-$http.get('http://192.168.1.111:3000').
+$http.get('http://192.168.0.10:3000/users').
   success(function(data, status, headers, config) {
     // this callback will be called asynchronously
     // when the response is available
     console.log( data );
+
+    $scope.partecipants = data;
+
 
   }).
   error(function(data, status, headers, config) {
